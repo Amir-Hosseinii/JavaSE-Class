@@ -1,8 +1,8 @@
 package product;
 
 public class Laptop extends Barghi {
-    int ram;
-    String cpu;
+    private int ram;
+    private String cpu;
 
     public int getRam() {
         return ram;

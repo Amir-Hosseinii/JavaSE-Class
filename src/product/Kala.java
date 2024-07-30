@@ -1,8 +1,8 @@
 package product;
 
 public class Kala {
-    String name;
-    int gheymat;
+   private String name;
+    private`     int gheymat;
 
     public String getName() {
         return name;

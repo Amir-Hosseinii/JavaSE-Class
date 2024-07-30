@@ -1,7 +1,7 @@
 package product;
 
 public class Mobile extends Barghi{
-    int size_scrin;
+    private int size_scrin;
 
     public int getSize_scrin() {
         return size_scrin;

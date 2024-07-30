@@ -1,7 +1,7 @@
 package product;
 
 public class Asus extends Laptop{
-    int bateri;
+    private int bateri;
 
     public int getBateri() {
         return bateri;
@@ -15,11 +15,11 @@ public class Asus extends Laptop{
     public String toString() {
         return "Asus{" +
                 "bateri=" + bateri +
-                ", ram=" + ram +
-                ", cpu='" + cpu + '\'' +
-                ", volt=" + volt +
-                ", name='" + name + '\'' +
-                ", gheymat=" + gheymat +
+                ", ram=" + getRam() +
+                ", cpu='" + getCpu() + '\'' +
+                ", volt=" + getVolt() +
+                ", name='" + getName() + '\'' +
+                ", gheymat=" + getGheymat() +
                 '}';
     }
 }

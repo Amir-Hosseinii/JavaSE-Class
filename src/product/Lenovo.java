@@ -1,7 +1,7 @@
 package product;
 
 public class Lenovo extends Laptop{
-    Boolean tachpad;
+    private Boolean tachpad;
 
     public Boolean getTachpad() {
         return tachpad;
@@ -15,11 +15,11 @@ public class Lenovo extends Laptop{
     public String toString() {
         return "Lenovo{" +
                 "tachpad=" + tachpad +
-                ", ram=" + ram +
-                ", cpu='" + cpu + '\'' +
-                ", volt=" + volt +
-                ", name='" + name + '\'' +
-                ", gheymat=" + gheymat +
+                ", ram=" + getRam() +
+                ", cpu='" + getCpu() + '\'' +
+                ", volt=" + getVolt() +
+                ", name='" + getName() + '\'' +
+                ", gheymat=" + getGheymat() +
                 '}';
     }
 }

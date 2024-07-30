@@ -1,7 +1,7 @@
 package product;
 
 public class Barghi extends Kala {
-    int volt;
+    private int volt;
 
     public int getVolt() {
         return volt;

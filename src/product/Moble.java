@@ -1,7 +1,7 @@
 package product;
 
 public class Moble extends Gheyre_Barghi {
-    int nafar;
+    private int nafar;
 
     public int getNafar() {
         return nafar;
@@ -15,9 +15,9 @@ public class Moble extends Gheyre_Barghi {
     public String toString() {
         return "Moble{" +
                 "nafar=" + nafar +
-                ", vazn=" + vazn +
-                ", name='" + name + '\'' +
-                ", gheymat=" + gheymat +
+                ", vazn=" + getVazn() +
+                ", name='" + getName() + '\'' +
+                ", gheymat=" + getGheymat() +
                 '}';
     }
 }

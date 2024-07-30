@@ -1,6 +1,7 @@
 package product;
 
 public class Gheyre_Barghi extends Kala {
+    private int vazn;
     public int getVazn() {
         return vazn;
     }
@@ -9,5 +10,5 @@ public class Gheyre_Barghi extends Kala {
         this.vazn = vazn;
     }
 
-    int vazn;
+
 }
